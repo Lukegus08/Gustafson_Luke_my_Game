@@ -156,7 +156,7 @@ class Game: # the whole class for the game its self
         # draw all sprites
         self.all_sprites.draw(self.screen)
         self.draw_text("Score: " + str(self.score), 22, WHITE, WIDTH/2, HEIGHT/10) # the display of the file for the score of the game 
-        self.draw_text("Coins: " + str(self.coins), 22, WHITE, WIDTH/2, HEIGHT/20) # the siply of the coins
+        self.draw_text("Coins: " + str(self.coins), 22, WHITE, WIDTH/2, HEIGHT/20) # the disply of the coins
         # buffer - after drawing everything, flip display
         pg.display.flip()
     
